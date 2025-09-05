@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angels Roost</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('angelsroost-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Impact', sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      letter-spacing: 2px;
+    }
+    p, li, a {
+      font-size: 1.25rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+  <h1>Angels Roost</h1>
+
+  <div class="section">
+    <h2>Upcoming Gigs</h2>
+    <ul>
+      <li>📍 September 6 – Bakersfield Villagefest, Bakersfield, CA</li>
+      <li>📍 September 21 – MB2 Amusement Park, Bakersfield, CA</li>
+      <li>📍 October 4 – 999 Foundation Officer Down Memorial Ride, Bakersfield, CA</li>
+      <li>📍 October 11 – Chuy's Baja Grill, Bakersfield, CA</li>
+    </ul>
+  </div>
+
+  <p><a href="mailto:angelsroostband@gmail.com">angelsroostband@gmail.com</a></p>
+  <p><a href="tel:+17604172421">(760) 417-2421</a></p>
+
+  <div class="section">
+    <h2>Follow Us</h2>
+    <p>
+      <a href="https://tiktok.com/@angelsroost" target="_blank">TikTok</a> |
+      <a href="https://instagram.com/angelsroost" target="_blank">Instagram</a> |
+      <a href="https://facebook.com/angelsroost" target="_blank">Facebook</a> 
+    </p>
+  </div>
+</div>
+<!-- Footer -->
+<footer style="background-color: #000; color: #fff; text-align: center; padding: 20px 0; font-family: sans-serif;">
+  <p>&copy; 2025 Angels Roost Band. All rights reserved.</p>
+  <p>
+  </p>
+</footer>
+</body>
+</html>
